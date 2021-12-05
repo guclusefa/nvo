@@ -1,11 +1,6 @@
 // mon theme bootstrap
-$body-bg: #000;
-$body-color: #111;
+$primary: #521751;
 
-$theme-colors: (
-  "primary": #521751,
-  "danger": #420603
-);
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 // mon code css
