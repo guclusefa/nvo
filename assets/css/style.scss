@@ -1,0 +1,16 @@
+// mon theme bootstrap
+$body-bg: #000;
+$body-color: #111;
+
+$theme-colors: (
+  "primary": #521751,
+  "danger": #420603
+);
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// mon code css
+.main-form {
+    width: 450px;
+    display: flex;
+    margin: auto;
+}
