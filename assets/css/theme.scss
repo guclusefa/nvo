@@ -1,6 +1,20 @@
 // mon theme bootstrap
-$body-bg: #28243c;
-$body-color: #ead80d;
-$primary: #ead80d;
+$jaune: #ead80d;
+$bleu: #28243c;
+
+$body-bg: $bleu;
+$body-color: $jaune;
+$primary: $jaune;
+
+$dropdown-link-color: $bleu;
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
+
+.icon-bar {
+  background-color: $jaune !important;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: $jaune;
+    background-color: $bleu;
+}
