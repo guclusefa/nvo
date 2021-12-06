@@ -1,3 +1,9 @@
+@import url('http://fonts.cdnfonts.com/css/radis-sans');
+
+body {
+  font-family: 'Radis Sans', sans-serif;
+}
+
 /* ANIMATED X */
 .navbar-toggler.x {
   border: none;
@@ -49,4 +55,8 @@
   -webkit-transform: rotate(0);
   -ms-transform: rotate(0);
   transform: rotate(0);
+}
+
+.icon-bar {
+  background-color: #ead80d !important;
 }
