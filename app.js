@@ -11,35 +11,20 @@ app.set("view engine", "ejs");
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }));
 
-app.use(cookieParser("i18n_demo"));
-app.use(session({
-    secret: "i18n_demo",
-    resave: true,
-    saveUninitialized: true,
-    cookie: { maxAge: 60000 }
-}));
-
+// i18n
 i18n.configure({
-    //define how many languages we would support in our application
     locales: ['fr', 'en'],
-    //define the path to language json files, default is /locales
     directory: __dirname + '/locales',
-    //define the default language
     defaultLocale: 'fr',
-    // define a custom cookie name to parse locale settings from 
     cookie: 'i18n'
 });
-
-app.use(cookieParser("i18n_demo"));
-
+app.use(cookieParser("codei18n"));
 app.use(session({
-    secret: "i18n_demo",
+    secret: "codei18n",
     resave: true,
     saveUninitialized: true,
     cookie: { maxAge: 60000 }
 }));
-
-//init i18n after cookie-parser
 app.use(i18n.init);
 
 //chemins static

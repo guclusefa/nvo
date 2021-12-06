@@ -3,6 +3,7 @@ module.exports = {
     // affichage accueil
     afficher: function (req, res) {
         titre = "Accueil";
+        console.log(res.__('WELCOME'));
         res.render('./accueil', { titre })
     },
 }
