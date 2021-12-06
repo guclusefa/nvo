@@ -16,41 +16,46 @@
 
 
 <body class="d-flex flex-column min-vh-100">
-    <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid bg-body fixed-top">
         <div class="container">
-            <!-- Image and text -->
-
-            <a class="navbar-brand" href="#" style="text-decoration: underline;">
-                <img src="images/nvo-no-bg.svg" width="30" height="30" class="d-inline-block align-top"
-                    alt="">NOVEMBER'S VERY OWN
-            </a>
-            <button class="navbar-toggler x" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                </ul>
-                <div class="form-inline">
-                    <ul class="navbar-nav mr-auto">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand d-none d-sm-block" href="#" style="text-decoration: underline;">
+                    <img src="images/nvo-no-bg.svg" width="30" height="30" class="d-inline-block align-top"
+                        alt="">NOVEMBER'S VERY OWN
+                </a>
+                <a class="navbar-brand d-block d-sm-none" href="#" style="text-decoration: underline;">
+                    <img src="images/nvo-no-bg.svg" width="30" height="30" class="d-inline-block align-top" alt="">NVO
+                </a>
+                <button class="navbar-toggler x" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <button class="navbar-toggler x" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                MON MENUU DEROULANT
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
                             </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Something else here</a>
-                            </div>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
-            </div>
+            </nav>
         </div>
-    </nav>
-    
+    </div>

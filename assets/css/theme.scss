@@ -1,10 +1,13 @@
 // mon theme bootstrap
+$palette: "B9AB19","585130","28243C","28243C","B9AB19";
 $jaune: #ead80d;
 $bleu: #28243c;
+$gris: #413A61;
 
 $body-bg: $bleu;
 $body-color: $jaune;
 $primary: $jaune;
+$secondary: $gris;
 
 $dropdown-link-color: $bleu;
 
@@ -15,6 +18,11 @@ $dropdown-link-color: $bleu;
 }
 
 .dropdown-item.active, .dropdown-item:active {
+    color: $jaune;
+    background-color: $bleu;
+}
+
+.dropdown-item:hover {
     color: $jaune;
     background-color: $bleu;
 }
