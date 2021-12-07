@@ -11,6 +11,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
     <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/theme-dark.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -49,8 +50,16 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="connexion" tabindex="-1" aria-disabled="true"><%= __('navbar.login')%></a>
+                            <a class="nav-link" href="connexion" tabindex="-1" aria-disabled="true">
+                                <%= __('navbar.login')%>
+                            </a>
                         </li>
+                        <div class="nav-link">
+                            <div class="form-check form-switch">
+                                <input type="checkbox" class="form-check-input" id="darkSwitch">
+                                <label class="custom-control-label" for="darkSwitch">DARK</label>
+                            </div>
+                        </div>
                     </ul>
                 </div>
             </nav>
