@@ -16,7 +16,9 @@ i18n.configure({
     locales: ['fr', 'en'],
     directory: __dirname + '/locales',
     defaultLocale: 'fr',
-    cookie: 'i18n'
+    cookie: 'i18n',
+    objectNotation: true,
+    register: global
 });
 app.use(cookieParser("codei18n"));
 app.use(session({

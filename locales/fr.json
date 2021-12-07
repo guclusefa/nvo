@@ -1,7 +1,8 @@
 {
-	"WELCOME": "BIENVENUE SUR NOVEMBER'S VERY OWN",
+	"index": {
+		"welcome": "BIENVENUE SUR NOVEMBER'S VERY OWN {{test}}"
+	},
 	"test": {
-		"monTest": "test121221",
-		"monTest2": "test121221"
+		"monTest": "test.monTest"
 	}
 }

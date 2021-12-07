@@ -1,8 +1,9 @@
 {
-	"WELCOME": "WELCOME TO NOVEMBER'S VERY OWN",
-	"test": {
-		"monTest": "test121221",
-		"monTest2": "test121221"
+	"index": {
+		"welcome": "WELCOME TO NOVEMBER'S VERY OWN {{test}}",
+		"welccome": "index.welccome"
 	},
-	"test.monTest": "test.monTest"
+	"test": {
+		"monTest": "test.monTest"
+	}
 }
