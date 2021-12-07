@@ -1,8 +1,8 @@
 {
-	"index": {
+	"navbar":{
+        "login":"Connexion"
+    },
+    "index": {
 		"welcome": "BIENVENUE SUR NOVEMBER'S VERY OWN {{test}}"
-	},
-	"test": {
-		"monTest": "test.monTest"
 	}
 }

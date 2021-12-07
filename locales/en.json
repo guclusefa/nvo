@@ -1,9 +1,8 @@
 {
-	"index": {
-		"welcome": "WELCOME TO NOVEMBER'S VERY OWN {{test}}",
-		"welccome": "index.welccome"
-	},
-	"test": {
-		"monTest": "test.monTest"
+	"navbar":{
+        "login":"Log-in"
+    },
+    "index": {
+		"welcome": "WELCOME TO NOVEMBER'S VERY OWN {{test}}"
 	}
 }
