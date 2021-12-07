@@ -5,8 +5,5 @@
 	"index": {
 		"title": "Accueil",
 		"welcome": "BIENVENUE SUR NOVEMBER'S VERY OWN {{test}}"
-	},
-	"navar": {
-		"login": "navar.login"
 	}
 }
