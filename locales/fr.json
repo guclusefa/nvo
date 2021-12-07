@@ -1,3 +1,7 @@
 {
-	"WELCOME": "BIENVENUE SUR NOVEMBER'S VERY OWN"
+	"WELCOME": "BIENVENUE SUR NOVEMBER'S VERY OWN",
+	"test": {
+		"monTest": "test121221",
+		"monTest2": "test121221"
+	}
 }

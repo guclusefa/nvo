@@ -1,3 +1,8 @@
 {
-    "WELCOME": "WELCOME TO NOVEMBER'S VERY OWN"
+	"WELCOME": "WELCOME TO NOVEMBER'S VERY OWN",
+	"test": {
+		"monTest": "test121221",
+		"monTest2": "test121221"
+	},
+	"test.monTest": "test.monTest"
 }
