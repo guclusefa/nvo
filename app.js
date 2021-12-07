@@ -46,10 +46,10 @@ app.use("/", (Routeur));
 
 app.get('/en', function (req, res) {
     res.cookie('i18n', 'en');
-    res.redirect('/')
+    res.redirect(req.get('referer'));
 });
 
 app.get('/fr', function (req, res) {
     res.cookie('i18n', 'fr');
-    res.redirect('/')
+    res.redirect(req.get('referer'));
 });
