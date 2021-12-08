@@ -33,7 +33,21 @@ $(document).ready(function () {
                 "0": "Aucune ligne sélectionnée",
                 "1": "1 ligne sélectionnée"
             }
-        }
+        },
+        "searchPanes": {
+            "clearMessage": "Tout effacer",
+            "collapse": {
+                "0": "SearchPanes",
+                "_": "SearchPanes (%d)"
+            },
+            "count": "{total}",
+            "countFiltered": "{shown} ({total})",
+            "emptyPanes": "Aucun filtre",
+            "loadMessage": "Chargement filtre",
+            "title": "Filres actifs- %d",
+            "showMessage": "Tout montrer",
+            "collapseMessage": "Tout réduire"
+        },
     }
     en = ''
     function getCookie(name) {
@@ -41,10 +55,10 @@ $(document).ready(function () {
         const parts = value.split(`; ${name}=`);
         if (parts.length === 2) return parts.pop().split(';').shift();
     }
-    if(getCookie('i18n') == "fr"){
-        lang = fr
+    if (getCookie('i18n') == "fr") {
+        lang = fr;
     } else {
-        lang= en
+        lang = en
     }
 
     var table = $('#dataTable').DataTable({
