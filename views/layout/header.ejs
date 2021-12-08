@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="images/favicon.ico" />
+    <link rel="icon" href="/images/favicon.ico" />
     <title>MON SITE - <%= titre %>
     </title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
-    <link rel="stylesheet" href="css/theme.css">
-    <link rel="stylesheet" href="css/theme-dark.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/theme.css">
+    <link rel="stylesheet" href="/css/theme-dark.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 
 
@@ -21,11 +21,11 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg">
                 <a class="navbar-brand d-none d-sm-block" href="/" style="text-decoration: underline;">
-                    <img src="images/nvo-no-bg.svg" width="30" height="30" class="d-inline-block align-top"
+                    <img src="/images/nvo-no-bg.svg" width="30" height="30" class="d-inline-block align-top"
                         alt="">NOVEMBER'S VERY OWN
                 </a>
                 <a class="navbar-brand d-block d-sm-none" href="#" style="text-decoration: underline;">
-                    <img src="images/nvo-no-bg.svg" width="30" height="30" class="d-inline-block align-top" alt="">NVO
+                    <img src="/images/nvo-no-bg.svg" width="30" height="30" class="d-inline-block align-top" alt="">NVO
                 </a>
                 <button class="navbar-toggler x" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -42,15 +42,15 @@
                                 MON MENU DEROULANT
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Liste</a></li>
+                                <li><a class="dropdown-item" href="/users/liste">Liste</a></li>
                                 <li>
                                     <hr class="dropdown-divider bg-body">
                                 </li>
-                                <li><a class="dropdown-item" href="ajouter">Ajouter</a></li>
+                                <li><a class="dropdown-item" href="/users/ajouter">Ajouter</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="connexion" tabindex="-1" aria-disabled="true">
+                            <a class="nav-link" href="/connexion" tabindex="-1" aria-disabled="true">
                                 <%= __('navbar.login')%>
                             </a>
                         </li>
