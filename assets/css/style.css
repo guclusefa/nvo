@@ -79,10 +79,6 @@ body {
   }
 }
 
-.dataTables_length label {
-  min-width: 100%;
-}
-
 div.dataTables_wrapper div.dataTables_length label,
 div.dataTables_wrapper div.dataTables_filter label,
 div.dataTables_wrapper div.dataTables_info label,
@@ -97,4 +93,43 @@ div.dataTables_wrapper div.dataTables_paginate label {
 }
 #dataTable_paginate, #dataTable_info{
   margin-top: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  li.paginate_button.previous {
+      display: inline;
+  }
+
+  li.paginate_button.next {
+      display: inline;
+  }
+
+  li.paginate_button {
+      display: none;
+  }
+
+  .dtsp-titleRow{
+    text-align: left;
+    min-width: 100%;
+    float: left;
+  }
+  .dtsp-showAll, .dtsp-collapseAll, .dtsp-clearAll{
+    clear: both;
+    margin-top: 10px;
+    text-align: left;
+    width: 100%;
+  }
+}
+
+div.dtsp-topRow.dtsp-bordered {
+  border: none;
+  border-radius: 3px;
+}
+
+div.dtsp-topRow.dtsp-bordered:hover {
+  background-color:unset;
+  opacity: 1;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer !important;
 }
