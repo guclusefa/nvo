@@ -1,3 +1,48 @@
 <%- include('../layout/header') %>
+    <main class="content">
+        <div class="container mt-3">
+            <div class="row">
+                <div class="py-5 bg-secondary rounded-3">
+                    <div class="container-fluid">
+                        <h1 class="display-5 fw-bold">Liste des utilisateurs</h1>
+                        <p class="col-md-12 fs-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Libero doloribus, facere sint distinctio reprehenderit, similique fuga molestiae adipisci
+                            optio deserunt expedita ab veniam aperiam repellendus quia culpa possimus! Dolores, aperiam.
+                        </p>
+                        <hr>
 
-<%- include('../layout/footer') %>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="form-floating mb-3">
+                                    <input type="password" class="form-control" id="floatingPassword"
+                                        placeholder="Password">
+                                    <label for="floatingPassword">Password</label>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="form-floating mb-3">
+                                    <div class="form-group" data-style="btn-body">
+                                        <select class="selectpicker form-control" data-style="text-primary"
+                                            data-live-search="true" >
+                                            <option>Mustard</option>
+                                            <option>Ketchup</option>
+                                            <option>Relish</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">Email address</label>
+                        </div>
+                        <div class="col-12">
+                            <button class="btn btn-primary w-100" type="submit">Submit form</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <%- include('../layout/footer') %>

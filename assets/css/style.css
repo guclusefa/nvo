@@ -172,3 +172,15 @@ div.dataTables_wrapper div.dataTables_filter input {
   display: inline-block;
   width: auto;
 }
+
+.form-floating > .form-control:focus, .form-floating > .form-control:not(:placeholder-shown) {
+  padding-top: 1.625rem;
+  padding-bottom: 0.625rem;
+}
+
+.bootstrap-select.form-control {
+  padding: 9.2px;
+  border:1px solid white;
+  height: auto; 
+  width: auto;
+}
