@@ -35,11 +35,23 @@ $(document).ready(function () {
             }
         }
     }
+    en = ''
+    function getCookie(name) {
+        const value = `; ${document.cookie}`;
+        const parts = value.split(`; ${name}=`);
+        if (parts.length === 2) return parts.pop().split(';').shift();
+    }
+    if(getCookie('i18n') == "fr"){
+        lang = fr
+    } else {
+        lang= en
+    }
+
     var table = $('#dataTable').DataTable({
         searchPanes: true,
         responsive: true,
         pageLength: 25,
-        language: fr
+        language: lang
     });
     table.searchPanes.container().prependTo(table.table().container());
     table.searchPanes.resizePanes();
