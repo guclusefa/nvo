@@ -167,4 +167,8 @@ div.dtsp-topRow.dtsp-bordered:hover {
 ::-webkit-scrollbar-corner {
   background: transparent;
 }
-
+div.dataTables_wrapper div.dataTables_filter input {
+  margin-left: 0; 
+  display: inline-block;
+  width: auto;
+}
