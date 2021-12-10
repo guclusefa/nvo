@@ -12,3 +12,7 @@
         }, false);
     }, false);
 })();
+
+$(function () {
+    $('#datepicker').datepicker();
+});

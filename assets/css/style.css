@@ -88,32 +88,35 @@ div.dataTables_wrapper div.dataTables_paginate label {
   margin-bottom: 10px;
 }
 
-#d#dataTable_info{
+#d#dataTable_info {
   margin-top: 3px;
 }
-#dataTable_paginate, #dataTable_info{
+#dataTable_paginate,
+#dataTable_info {
   margin-top: 10px;
 }
 
 @media screen and (max-width: 767px) {
   li.paginate_button.previous {
-      display: inline;
+    display: inline;
   }
 
   li.paginate_button.next {
-      display: inline;
+    display: inline;
   }
 
   li.paginate_button {
-      display: none;
+    display: none;
   }
 
-  .dtsp-titleRow{
+  .dtsp-titleRow {
     text-align: left;
     min-width: 100%;
     float: left;
   }
-  .dtsp-showAll, .dtsp-collapseAll, .dtsp-clearAll{
+  .dtsp-showAll,
+  .dtsp-collapseAll,
+  .dtsp-clearAll {
     clear: both;
     margin-top: 10px;
     text-align: left;
@@ -127,7 +130,7 @@ div.dtsp-topRow.dtsp-bordered {
 }
 
 div.dtsp-topRow.dtsp-bordered:hover {
-  background-color:unset;
+  background-color: unset;
   opacity: 1;
   border: none;
   border-radius: 3px;
@@ -168,19 +171,32 @@ div.dtsp-topRow.dtsp-bordered:hover {
   background: transparent;
 }
 div.dataTables_wrapper div.dataTables_filter input {
-  margin-left: 0; 
+  margin-left: 0;
   display: inline-block;
   width: auto;
 }
 
-.form-floating > .form-control:focus, .form-floating > .form-control:not(:placeholder-shown) {
+.form-floating > .form-control:focus,
+.form-floating > .form-control:not(:placeholder-shown) {
   padding-top: 1.625rem;
   padding-bottom: 0.625rem;
 }
 
 .bootstrap-select.form-control {
   padding: 9.2px;
-  border:1px solid white;
-  height: auto; 
+  border: 1px solid white;
+  height: auto;
   width: auto;
 }
+
+.table-striped thead tr th {
+  border: 1px solid white !important;
+  padding: 1rem;
+}
+
+.table-striped tbody td {
+  padding-bottom: 1rem !important;
+  padding-top: 2rem !important;
+  border: 1px solid white !important;
+}
+

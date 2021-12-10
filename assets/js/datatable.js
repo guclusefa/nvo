@@ -67,11 +67,19 @@ $(document).ready(function () {
         searchPanes: true,
         responsive: true,
         pageLength: 25,
-        language: lang
+        language: lang,
+        columnDefs: [
+            {
+                searchPanes: {
+                    show: true,
+                    initCollapsed: true
+                },
+                targets: [0,1,2,3,4,5]
+            }
+        ]
     });
     table.searchPanes.container().prependTo(table.table().container());
     table.searchPanes.resizePanes();
-
 });
 
 
