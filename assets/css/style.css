@@ -200,3 +200,9 @@ div.dataTables_wrapper div.dataTables_filter input {
   border: 1px solid white !important;
 }
 
+.navbar-nav .nav-link {
+  padding-right: 0;
+  padding-left: 0;
+  text-align: center;
+}
+
